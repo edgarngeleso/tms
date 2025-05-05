@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family:'Times New Roman', Times, serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to right,var(--app-faded-color),var(--app-color));
+  scroll-behavior: smooth;
+}
+
+:root{
+  --primary-color:whitesmoke;
+  --secondary-color:#ffffff;
+  --app-color:#27ae60;
+  --app-faded-color:#8febb5;
+  --app-danger:#bb2121;
+  /* colors */
+  --app-deep-navy-blue:#011222;
+  --app-rich-black:#020d19;
+  --app-dark-slate-gray:#0d1717;
+  --app-midnight-blue:#101720;
+  --app-obsidian:#0b1215;
+  --app-charcoal-gray:#171717;
+  --app-oil-black:#0c0c0c;
+  /* ---------- */
+  --smallest-fontsize:12px;
+  --small-fontsize:14px;
+  --normal-fontsize:16px;
+  --large-fontsize:18px;
+  --large-fontsize:24px;
+  --largest-fontsize:30px;
+}

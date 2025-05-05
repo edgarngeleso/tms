@@ -1,0 +1,92 @@
+.pay{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 1px;
+    margin-left: 5%;
+    margin-bottom: 10px;    
+    gap: 15px;
+    justify-content: space-between;
+}
+
+
+.pay input{
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #636060;
+    padding-left: 5px;
+    height: 40px;
+}
+
+.pay .user-data{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.pay .email{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.pay .email input{
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #636060;
+    padding-left: 5px;
+    height: 40px;
+}
+
+.pay .message{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-height: 100px;
+}
+
+.pay .message textarea{
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #636060;
+    padding-left: 5px;
+}
+
+.pay .details{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.pay .details .div{
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.15);
+    padding: 2px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.pay .payment{
+    width: 100%;
+}
+
+@media(min-width:200px){
+    .pay{
+        flex-direction: column;
+    }
+}
+
+@media(min-width:768px){
+    .pay{
+        flex-direction: row;
+    }
+}

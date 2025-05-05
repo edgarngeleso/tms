@@ -1,0 +1,42 @@
+.bottom{
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    background-color: #ffffff;
+    bottom: 0px;
+    z-index: 100;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+    color: rgba(104, 239, 86, 0.12);
+    transition: all .5s ease-in;
+    padding: 2%;
+}
+
+.item{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    align-items: center;
+    height: 80%;
+    transition: width .5s ease-in-out;
+    gap: 10px;
+}
+
+.active{
+    background-color: red;
+}
+
+@media(min-width:200px){
+    .bottom{
+        display: flex;
+    }
+}
+
+@media(min-width:768px){
+    .bottom{
+        display: none;
+    }
+}

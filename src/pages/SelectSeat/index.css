@@ -1,0 +1,111 @@
+.select-seat{
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    gap: 40px;
+    background-color: #ffffff;
+    
+}
+
+.select-seat .holder{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 30px;
+    
+}
+.select-seat .select-seat-info{
+    width: 40%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: fit-content;
+    padding: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+.select-seat .select-seat-vehicle{
+    width: 40%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+    height: fit-content;
+}
+.select-seat .select-seat-vehicle .driver-and-door{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.select-seat .select-seat-vehicle .driver-and-door{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.select-seat .select-seat-vehicle .driver-and-door img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.select-seat .select-seat-vehicle .customer-seat{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 20px;
+}
+.select-seat .select-seat-vehicle .customer-seat img{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+
+.isBigScreen{
+    display: flex;
+}
+
+@media(min-width:200px){
+    .select-seat .holder{
+        flex-direction: column;
+        width: 98%;
+    }
+    .select-seat .select-seat-info{
+        width: 100%;
+    }
+    .select-seat .select-seat-vehicle{
+        width:  100%;
+    }
+    .isBigScreen{
+        display: none;
+    }
+}
+
+@media(min-width:768px){
+    .select-seat .holder{
+        flex-direction: row;
+        width: 80%;
+    }
+    .select-seat .select-seat-info{
+        width: 40%;
+    }
+    .select-seat .select-seat-vehicle{
+        width:  40%;
+    }
+    .isBigScreen{
+        display: flex;
+        flex-direction: column;
+    }
+}
