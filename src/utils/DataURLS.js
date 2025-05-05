@@ -1,5 +1,5 @@
 export let BASEURL = "https://tms-2k4s.onrender.com";
-BASEURL = "http://127.0.0.1:8085";
+//BASEURL = "http://127.0.0.1:8085";
 
 let APPURL = "http://127.0.0.1:3000";
 let debug=false;
